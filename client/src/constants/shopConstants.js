@@ -1,0 +1,4 @@
+// shopConstants.js
+export const SHOP_BY_SELLER_REQUEST = "SHOP_BY_SELLER_REQUEST";
+export const SHOP_BY_SELLER_SUCCESS = "SHOP_BY_SELLER_SUCCESS";
+export const SHOP_BY_SELLER_FAIL = "SHOP_BY_SELLER_FAIL";

@@ -1,0 +1,123 @@
+.heroBanner {
+  background-color: #f1f6f7;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.heroBanner::before {
+  content: "";
+  display: block;
+  height: 100%;
+  background-color: #384aeb;
+  position: absolute;
+  top: -0.99px;
+  left: 0;
+}
+
+@media (min-width: 575px) {
+  .heroBanner::before {
+    width: 20%;
+  }
+}
+
+@media (min-width: 991px) {
+  .heroBanner::before {
+    width: 35%;
+  }
+}
+
+.content {
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.imageFluid {
+  max-width: 100%;
+  height: auto;
+}
+.intro {
+  max-width: 495px;
+  margin-left: 50px;
+}
+.intro input{
+  all: unset;
+}
+.intro textarea{
+  all: unset;
+}
+.intro h4 {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  margin-bottom: 12px;
+}
+.intro h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: 1.1;
+  margin-bottom: 25px;
+  color: #222;
+}
+.intro p {
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.intro .butt button {
+  display: inline-block;
+  border: 1px solid #384aeb;
+  border-radius: 30px;
+  font-weight: 500;
+  color: white;
+  background-color: #384aeb;
+  padding: 15px 35px;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+
+.intro .butt button:hover {
+  background-color: white;
+  color: #384aeb;
+}
+
+.intro a:hover {
+  background-color: white;
+  color: #384aeb;
+}
+
+.intro .profile_butt:hover .pp{
+  opacity: 0.3;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.intro .profile_butt:hover .middle{
+  opacity: 1;
+}
+
+@media screen and (max-width: 700px) {
+  .intro {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+}
+
+h3 {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  text-align: center;
+  margin-bottom: 12px;
+}

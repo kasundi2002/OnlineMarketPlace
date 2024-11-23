@@ -1,0 +1,1 @@
+install node modules to root(/Shopology-development(6)) and client by using "npm i"
