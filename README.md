@@ -4,4 +4,5 @@ This is a system that allows small shop owners to create a shop of their own. Th
 This is implemented using MERN stack.
 
 This is the project I did as the university project in my 2nd year 2nd semester for the ITP(Information Technology Project).
+
 Go to the master brach to see the complete project
